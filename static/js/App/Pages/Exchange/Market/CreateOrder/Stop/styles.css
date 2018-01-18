@@ -1,0 +1,18 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"styles.css","sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_2sfT-Vj-y-J-R8GR8zA-Wh"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/CreateOrder/Stop/styles.css
+// module id = 2138
+// module chunks = 2

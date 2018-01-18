@@ -1,0 +1,41 @@
+:local(.container) {
+  margin: 150px 0 150px;
+  text-align: center;
+}
+
+:local(.container) .col-xs-12 {
+  margin-bottom: 50px;
+}
+
+:local(.icon) {
+  margin: 20px;
+  color: #0069ff;
+}
+
+:local(.image) {
+  margin-bottom: 20px;
+}
+
+:local(.image) img {
+  height: 120px;
+}
+
+:local(.title) {
+  font-size: 28px;
+  font-family: 'Geomanist', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+:local(.mainTitle) {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Geomanist', sans-serif;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Home/Home/Features/styles.css

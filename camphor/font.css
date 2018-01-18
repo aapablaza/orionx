@@ -1,0 +1,46 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3474956, 2017-10-30T10:41:18-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: CamphorStd-Regular by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/camphor/std-regular/
+ *
+ * Webfont: CamphorStd-Bold by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/camphor/std-bold/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3474956
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright 2010 Monotype Imaging Inc. All rights reserved. Designed by Nick Job.
+ *
+ * © 2017 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url('//hello.myfonts.net/count/35060c');
+
+@font-face {
+  font-family: 'Camphor';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./35060C_0_0.eot');
+  src: url('./35060C_0_0.eot?#iefix') format('embedded-opentype'),
+    url('./35060C_0_0.woff2') format('woff2'), url('./35060C_0_0.woff') format('woff'),
+    url('./35060C_0_0.ttf') format('truetype'), url('./35060C_0_0.svg#wf') format('svg');
+}
+
+@font-face {
+  font-family: 'Camphor';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./35060C_1_0.eot');
+  src: url('./35060C_1_0.eot?#iefix') format('embedded-opentype'),
+    url('./35060C_1_0.woff2') format('woff2'), url('./35060C_1_0.woff') format('woff'),
+    url('./35060C_1_0.ttf') format('truetype'), url('./35060C_1_0.svg#wf') format('svg');
+}

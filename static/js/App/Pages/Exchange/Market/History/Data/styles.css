@@ -1,0 +1,22 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._1q5naDq8VP4g9egTSdphxx{overflow:auto}._1yY3jMwY2C21yUA0uHL1Qw{display:-ms-flexbox;display:flex}._1yY3jMwY2C21yUA0uHL1Qw>div{padding:2px;-ms-flex:1 1;flex:1 1;text-align:right}._1yY3jMwY2C21yUA0uHL1Qw>div:first-child{padding-left:10px;text-align:left}._1yY3jMwY2C21yUA0uHL1Qw>div:last-child{padding-right:10px}._2MF3uNRmRIQSEjli_WQPZU{font-weight:700}._2MF3uNRmRIQSEjli_WQPZU svg{position:relative;top:-1px;margin-left:2px;margin-right:-2.5px}._3sLSzliTWPh_t9JyYrnFdm{color:#008c76}._3XmuKvJzAlQfzcMDhKpPFw{color:#f44336}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/History/Data/styles.css"],"names":[],"mappings":"AAAA,yBACE,aAAe,CAChB,AAED,yBACE,oBAAqB,AACrB,YAAc,CACf,AAED,6BACE,YAAa,AACb,aAAc,AACV,SAAU,AACd,gBAAkB,CACnB,AAED,yCACE,kBAAmB,AACnB,eAAiB,CAClB,AAED,wCACE,kBAAoB,CACrB,AAED,yBACE,eAAkB,CACnB,AAED,6BACE,kBAAmB,AACnB,SAAU,AACV,gBAAiB,AACjB,mBAAqB,CACtB,AAED,yBAEE,aAAe,CAChB,AAED,yBAEE,aAAe,CAChB","file":"styles.css","sourcesContent":[":local(.container) {\n  overflow: auto;\n}\n\n:local(.trade) {\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.trade) > div {\n  padding: 2px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  text-align: right;\n}\n\n:local(.trade) > div:first-child {\n  padding-left: 10px;\n  text-align: left;\n}\n\n:local(.trade) > div:last-child {\n  padding-right: 10px;\n}\n\n:local(.price) {\n  font-weight: bold;\n}\n\n:local(.price) svg {\n  position: relative;\n  top: -1px;\n  margin-left: 2px;\n  margin-right: -2.5px;\n}\n\n:local(.priceUp) {\n  composes: price;\n  color: #008c76;\n}\n\n:local(.priceDown) {\n  composes: price;\n  color: #f44336;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_1q5naDq8VP4g9egTSdphxx",
+	"trade": "_1yY3jMwY2C21yUA0uHL1Qw",
+	"price": "_2MF3uNRmRIQSEjli_WQPZU",
+	"priceUp": "_3sLSzliTWPh_t9JyYrnFdm _2MF3uNRmRIQSEjli_WQPZU",
+	"priceDown": "_3XmuKvJzAlQfzcMDhKpPFw _2MF3uNRmRIQSEjli_WQPZU"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/History/Data/styles.css
+// module id = 2204
+// module chunks = 2

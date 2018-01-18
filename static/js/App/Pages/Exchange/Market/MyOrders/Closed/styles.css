@@ -1,0 +1,31 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3_W92-WckRS322Uc4yYGx-{display:-ms-flexbox;display:flex}.md-8n2JICRyp-uWt7ASOk{border-bottom:2px solid #202228;font-weight:700}.E2khwBdFr1Va9g9Y3BFWO{-ms-flex:1 1;flex:1 1;padding:2px;text-align:right}._3MvCNhC077mYaLxjOdii26{padding-left:10px;width:63px;-ms-flex:none;flex:none;text-align:left}._2xceeI0kY-rBZyXY4XO0h2{width:90px;-ms-flex:none;flex:none}._1cln5LidTaj4XXbpj6-9kT{width:140px;-ms-flex:none;flex:none}._1KBs7Jn6pTPj98MYVWWMbl{width:40px;-ms-flex:none;flex:none;padding-right:10px}.GrXIHsuEGZqF1YokAAQXe ._1KBs7Jn6pTPj98MYVWWMbl{cursor:pointer;z-index:10}.GrXIHsuEGZqF1YokAAQXe ._1KBs7Jn6pTPj98MYVWWMbl:hover{opacity:.9}._1mFNJBDYmd8HqM9smk4R5F{display:-ms-flexbox;display:flex;padding-right:4px}._1mFNJBDYmd8HqM9smk4R5F svg{position:relative;top:.5px}.YVT5yVSzKvz6QKUMY4iPZ{-ms-flex:1 1;flex:1 1}._1QfATxcGR0yXu5PS4ikZiv{text-align:center}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/MyOrders/Closed/styles.css"],"names":[],"mappings":"AAAA,yBACE,oBAAqB,AACrB,YAAc,CACf,AAED,uBAEE,gCAAiC,AACjC,eAAkB,CACnB,AAYD,uBACE,aAAc,AACV,SAAU,AACd,YAAa,AACb,gBAAkB,CACnB,AAED,yBACE,kBAAmB,AAEnB,WAAY,AACZ,cAAe,AACX,UAAW,AACf,eAAiB,CAClB,AAcD,yBAEE,WAAY,AACZ,cAAe,AACX,SAAW,CAChB,AAED,yBAEE,YAAa,AACb,cAAe,AACX,SAAW,CAChB,AAED,yBAEE,WAAY,AACZ,cAAe,AACX,UAAW,AACf,kBAAoB,CACrB,AAED,gDACE,eAAgB,AAChB,UAAY,CACb,AAED,sDACE,UAAa,CACd,AAED,yBACE,oBAAqB,AACrB,aAAc,AACd,iBAAmB,CACpB,AAED,6BACE,kBAAmB,AACnB,QAAW,CACZ,AAED,uBACE,aAAc,AACV,QAAU,CACf,AAED,yBACE,iBAAmB,CACpB","file":"styles.css","sourcesContent":[":local(.tableRow) {\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.thead) {\n  composes: tableRow;\n  border-bottom: 2px solid #202228;\n  font-weight: bold;\n}\n\n:local(.tr) {\n  composes: tableRow;\n}\n\n:local(.thead) :local(.tableD) {\n}\n\n:local(.tr) :local(.tableD) {\n}\n\n:local(.tableD) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n  padding: 2px;\n  text-align: right;\n}\n\n:local(.sell) {\n  padding-left: 10px;\n  composes: tableD;\n  width: 63px;\n  -ms-flex: none;\n      flex: none;\n  text-align: left;\n}\n\n:local(.price) {\n  composes: tableD;\n}\n\n:local(.amount) {\n  composes: tableD;\n}\n\n:local(.filled) {\n  composes: tableD;\n}\n\n:local(.date) {\n  composes: tableD;\n  width: 90px;\n  -ms-flex: none;\n      flex: none;\n}\n\n:local(.closedAt) {\n  composes: tableD;\n  width: 140px;\n  -ms-flex: none;\n      flex: none;\n}\n\n:local(.actions) {\n  composes: tableD;\n  width: 40px;\n  -ms-flex: none;\n      flex: none;\n  padding-right: 10px;\n}\n\n:local(.tr) :local(.actions) {\n  cursor: pointer;\n  z-index: 10;\n}\n\n:local(.tr) :local(.actions):hover {\n  opacity: 0.9;\n}\n\n:local(.typeInner) {\n  display: -ms-flexbox;\n  display: flex;\n  padding-right: 4px;\n}\n\n:local(.typeInner) svg {\n  position: relative;\n  top: 0.5px;\n}\n\n:local(.action) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n\n:local(.loading) {\n  text-align: center;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"tableRow": "_3_W92-WckRS322Uc4yYGx-",
+	"thead": "md-8n2JICRyp-uWt7ASOk _3_W92-WckRS322Uc4yYGx-",
+	"tr": "GrXIHsuEGZqF1YokAAQXe _3_W92-WckRS322Uc4yYGx-",
+	"tableD": "E2khwBdFr1Va9g9Y3BFWO",
+	"sell": "_3MvCNhC077mYaLxjOdii26 E2khwBdFr1Va9g9Y3BFWO",
+	"price": "_3iOzzeOZ_163WA0Lqs_SEL E2khwBdFr1Va9g9Y3BFWO",
+	"amount": "_2phqGB_TeJsse9AX29Tjvs E2khwBdFr1Va9g9Y3BFWO",
+	"filled": "_32gqr3eNDiEVUSGHZ75H1f E2khwBdFr1Va9g9Y3BFWO",
+	"date": "_2xceeI0kY-rBZyXY4XO0h2 E2khwBdFr1Va9g9Y3BFWO",
+	"closedAt": "_1cln5LidTaj4XXbpj6-9kT E2khwBdFr1Va9g9Y3BFWO",
+	"actions": "_1KBs7Jn6pTPj98MYVWWMbl E2khwBdFr1Va9g9Y3BFWO",
+	"typeInner": "_1mFNJBDYmd8HqM9smk4R5F",
+	"action": "YVT5yVSzKvz6QKUMY4iPZ",
+	"loading": "_1QfATxcGR0yXu5PS4ikZiv"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/MyOrders/Closed/styles.css
+// module id = 2274
+// module chunks = 2

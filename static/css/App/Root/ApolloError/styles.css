@@ -1,0 +1,19 @@
+:local(.container) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+  background: #eee;
+  padding: 60px;
+  text-align: center;
+}
+
+:local(.title) {
+  color: red;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Root/ApolloError/styles.css

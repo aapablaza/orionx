@@ -1,0 +1,189 @@
+:local(.container) {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-transition: all 500ms cubic-bezier(0.9, 0, 0.1, 1);
+  -o-transition: all 500ms cubic-bezier(0.9, 0, 0.1, 1);
+  transition: all 500ms cubic-bezier(0.9, 0, 0.1, 1);
+}
+
+:local(.container_entering) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+:local(.container_entered) {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+:local(.container_exiting) {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+:local(.dialog) {
+  background-color: #fff;
+  -webkit-box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  -webkit-transition: all 500ms cubic-bezier(0.9, 0, 0.1, 1);
+  -o-transition: all 500ms cubic-bezier(0.9, 0, 0.1, 1);
+  transition: all 500ms cubic-bezier(0.9, 0, 0.1, 1);
+  position: relative;
+  max-height: 90%;
+  margin: 10px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+:local(.dialog_entering) {
+  opacity: 0;
+  top: -60%;
+}
+
+:local(.dialog_entered) {
+  opacity: 1;
+  top: 0;
+}
+
+:local(.dialog_exiting) {
+  opacity: 0;
+  top: 100%;
+}
+
+:local(.separator) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+:local(.main) {
+  padding: 30px 20px;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+:local(.description) {
+  padding-bottom: 20px;
+}
+
+:local(.values) {
+  padding: 30px 20px;
+  border-left: 1px solid #eee;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+:local(.smallValues) {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-left: 1px solid #eee;
+}
+
+:local(.title) {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+:local(.confirm) {
+  text-align: center;
+  font-weight: bold;
+  padding: 12px 10px;
+  cursor: pointer;
+  background: #0069ff;
+  color: #fff;
+  border-radius: 23px;
+  -webkit-box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 0.1s cubic-bezier(0.9, 0, 0.1, 1);
+  -o-transition: all 0.1s cubic-bezier(0.9, 0, 0.1, 1);
+  transition: all 0.1s cubic-bezier(0.9, 0, 0.1, 1);
+}
+
+:local(.confirm) svg {
+  color: rgba(255, 255, 255, 0.4);
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+
+:local(.confirm):hover {
+  -webkit-transform: translateY(-1px);
+      -ms-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+:local(.confirm):active {
+  -webkit-box-shadow: 0 5px 8px rgba(50, 50, 93, 0.1), 0 3px 5px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 5px 8px rgba(50, 50, 93, 0.1), 0 3px 5px rgba(0, 0, 0, 0.07);
+  -webkit-transform: translateY(1px);
+      -ms-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+:local(.valueItem) {
+  margin-bottom: 10px;
+}
+
+:local(.label) {
+  font-size: 14px;
+  font-weight: bold;
+  color: #999;
+}
+
+:local(.value) {
+  margin-top: 3px;
+}
+
+:local(.date) {
+  color: #999;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+:local(.twoFactor) {
+  margin-bottom: 10px;
+}
+
+:local(.bottom) {
+  text-align: center;
+  color: #999;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+:local(.cancel) {
+  -webkit-transition: all 0.1s cubic-bezier(0.9, 0, 0.1, 1);
+  -o-transition: all 0.1s cubic-bezier(0.9, 0, 0.1, 1);
+  transition: all 0.1s cubic-bezier(0.9, 0, 0.1, 1);
+  cursor: pointer;
+}
+
+:local(.cancel):hover {
+  color: #333;
+}
+
+:local(.bottomSeparator) {
+  color: #999;
+  font-size: 12px;
+  padding: 0 10px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Root/ConfirmationDialog/styles.css

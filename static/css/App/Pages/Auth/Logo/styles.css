@@ -1,0 +1,27 @@
+:local(.container) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 60px;
+}
+
+:local(.container) a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+:local(.container) img {
+  height: 50px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Auth/Logo/styles.css

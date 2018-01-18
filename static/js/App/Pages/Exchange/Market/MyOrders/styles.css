@@ -1,0 +1,18 @@
+exports = module.exports = require("../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._1nrR0vTYyqLMy0BsMKVwx8{font-size:12px}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/MyOrders/styles.css"],"names":[],"mappings":"AAAA,yBACE,cAAgB,CACjB","file":"styles.css","sourcesContent":[":local(.container) {\n  font-size: 12px;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_1nrR0vTYyqLMy0BsMKVwx8"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/MyOrders/styles.css
+// module id = 2271
+// module chunks = 2

@@ -1,0 +1,109 @@
+:local(.container) {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+}
+
+:local(.name) {
+  font-weight: 700;
+  letter-spacing: 1.5;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+:local(.container):hover :local(.name) {
+  color: #0069ff;
+}
+
+:local(.nameOpen) {
+  composes: name;
+  color: #0069ff;
+}
+
+:local(.select) {
+  font-size: 11px;
+  color: rgba(21, 35, 44, 0.5);
+  font-weight: normal;
+}
+
+:local(.iconContainer) {
+  padding-left: 10px;
+  margin-right: -5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+:local(.menu) {
+  position: absolute;
+  left: 0px;
+  background-color: #fff;
+  top: 50px;
+  padding-top: 5px;
+  z-index: 100;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  overflow: hidden;
+}
+
+:local(.marketSecondaryGroupTitle) {
+  padding: 20px 15px;
+  color: #111;
+}
+
+:local(.market) {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border-left: 1px solid #ddd;
+  font-weight: normal;
+  color: #111;
+}
+
+:local(.market):hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+:local(.marketName) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+  font-weight: bold;
+}
+
+:local(.price) {
+  padding-left: 20px;
+  width: 80px;
+  text-align: right;
+}
+
+:local(.variation) {
+  padding-left: 10px;
+  width: 70px;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  :local(.container) {
+    position: static;
+  }
+  :local(.menu) {
+    left: 0px;
+    right: 0px;
+    padding-top: 20px;
+  }
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Layout/Navbar/Markets/styles.css

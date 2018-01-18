@@ -1,0 +1,18 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._2B-zr6lNJhL69jKFRnHpxw{overflow:auto;-webkit-overflow-scrolling:touch}.orders-list-enter{background-color:hsla(0,0%,100%,.2)}.orders-list-enter.orders-list-enter-active{background-color:hsla(0,0%,100%,0);-webkit-transition:background 1s ease-in-out;-o-transition:background 1s ease-in-out;transition:background 1s ease-in-out}.orders-list-leave{background-color:rgba(0,0,0,.2)}.orders-list-leave.orders-list-leave-active{background-color:transparent;-webkit-transition:background 1s ease-in-out;-o-transition:background 1s ease-in-out;transition:background 1s ease-in-out}.orders-list-leave.orders-list-leave-active .amount{color:#484c53;background-color:transparent;-webkit-transition:color .2s ease-in-out;-o-transition:color .2s ease-in-out;transition:color .2s ease-in-out;-webkit-transition:background 1s ease-in-out;-o-transition:background 1s ease-in-out;transition:background 1s ease-in-out}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/OrderBook/Data/styles.css"],"names":[],"mappings":"AAAA,yBACE,cAAe,AACf,gCAAkC,CACnC,AAED,mBACE,mCAA2C,CAC5C,AAED,4CACE,mCAAyC,AACzC,6CAAkD,AAClD,wCAA6C,AAC7C,oCAA0C,CAC3C,AAED,mBACE,+BAAqC,CACtC,AAED,4CACE,6BAAmC,AACnC,6CAAkD,AAClD,wCAA6C,AAC7C,oCAA0C,CAC3C,AAED,oDACE,cAAe,AACf,6BAAmC,AACnC,yCAA4C,AAC5C,oCAAuC,AACvC,iCAAoC,AACpC,6CAAkD,AAClD,wCAA6C,AAC7C,oCAA0C,CAC3C","file":"styles.css","sourcesContent":[":local(.container) {\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n}\n\n.orders-list-enter {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n\n.orders-list-enter.orders-list-enter-active {\n  background-color: rgba(255, 255, 255, 0);\n  -webkit-transition: background 1000ms ease-in-out;\n  -o-transition: background 1000ms ease-in-out;\n  transition: background 1000ms ease-in-out;\n}\n\n.orders-list-leave {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n\n.orders-list-leave.orders-list-leave-active {\n  background-color: rgba(0, 0, 0, 0);\n  -webkit-transition: background 1000ms ease-in-out;\n  -o-transition: background 1000ms ease-in-out;\n  transition: background 1000ms ease-in-out;\n}\n\n.orders-list-leave.orders-list-leave-active .amount {\n  color: #484c53;\n  background-color: rgba(0, 0, 0, 0);\n  -webkit-transition: color 200ms ease-in-out;\n  -o-transition: color 200ms ease-in-out;\n  transition: color 200ms ease-in-out;\n  -webkit-transition: background 1000ms ease-in-out;\n  -o-transition: background 1000ms ease-in-out;\n  transition: background 1000ms ease-in-out;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_2B-zr6lNJhL69jKFRnHpxw"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/OrderBook/Data/styles.css
+// module id = 2158
+// module chunks = 2

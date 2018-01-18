@@ -1,0 +1,23 @@
+exports = module.exports = require("../../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3InpbzEWTp9QBn_hB8ucuN{z-index:100;background-color:#010101;padding:10px;width:260px;color:#fff}.rv-crosshair__line{background:#fff;width:1px}._2N4aLyn-l7ViMFbCaYZtGf{font-size:16px;font-weight:700;margin-bottom:10px}._2yLE8b0wl_1kPD3VVcwE2V{display:-ms-flexbox;display:flex}.V5I060zUaTHFQZA7B8zXy{-ms-flex:1 1;flex:1 1}._2gn2DE0RVf8BWH7eHeNDLt{font-size:14px;font-weight:700}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/Charts/Depth/Chart/styles.css"],"names":[],"mappings":"AAAA,yBACE,YAAa,AACb,yBAA0B,AAC1B,aAAc,AACd,YAAa,AACb,UAAY,CACb,AAED,oBACE,gBAAiB,AACjB,SAAW,CACZ,AAED,yBACE,eAAgB,AAChB,gBAAkB,AAClB,kBAAoB,CACrB,AAED,yBACE,oBAAqB,AACrB,YAAc,CACf,AAED,uBACE,aAAc,AACV,QAAU,CACf,AAKD,yBACE,eAAgB,AAChB,eAAkB,CACnB","file":"styles.css","sourcesContent":[":local(.crosshair) {\n  z-index: 100;\n  background-color: #010101;\n  padding: 10px;\n  width: 260px;\n  color: #fff;\n}\n\n.rv-crosshair__line {\n  background: #fff;\n  width: 1px;\n}\n\n:local(.limitPrice) {\n  font-size: 16px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n:local(.flex) {\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.flexItem) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n\n:local(.title) {\n}\n\n:local(.value) {\n  font-size: 14px;\n  font-weight: bold;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"crosshair": "_3InpbzEWTp9QBn_hB8ucuN",
+	"limitPrice": "_2N4aLyn-l7ViMFbCaYZtGf",
+	"flex": "_2yLE8b0wl_1kPD3VVcwE2V",
+	"flexItem": "V5I060zUaTHFQZA7B8zXy",
+	"title": "_3R8nWa1uE7q5qWkiwnGcQB",
+	"value": "_2gn2DE0RVf8BWH7eHeNDLt"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/Charts/Depth/Chart/styles.css
+// module id = 2180
+// module chunks = 2

@@ -1,0 +1,71 @@
+:local(.nav) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+:local(.container) {
+  padding-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+:local(.logo) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+:local(.logo) img {
+  height: 30px;
+}
+
+:local(.links) > div {
+  margin-left: 40px;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  color: #111;
+}
+
+:local(.links) > div > a {
+  display: block;
+  height: 60px;
+  color: #fff;
+}
+
+:local(.links) > div:hover > a {
+  opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+  :local(.container) {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    text-align: center;
+  }
+
+  :local(.logo) {
+    margin-bottom: 15px;
+  }
+
+  :local(.links) > div {
+    margin: -30px 20px;
+    position: static;
+  }
+
+  .os_dropover {
+    text-align: left !important;
+    top: 120px !important;
+    left: 20px !important;
+    right: 20px !important;
+  }
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Home/Layout/Nav/styles.css

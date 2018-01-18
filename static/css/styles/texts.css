@@ -1,0 +1,37 @@
+@import url('/geomanist/font.css');
+@import url('/camphor/font.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  font-family: 'Camphor', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Camphor', sans-serif;
+  margin: 0;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #0069ff;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.os-navigator-item a {
+  font-family: 'Camphor', sans-serif;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/styles/texts.css

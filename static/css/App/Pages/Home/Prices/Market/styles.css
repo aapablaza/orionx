@@ -1,0 +1,57 @@
+:local(.container) {
+  background: #eee;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+:local(.circle) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+:local(.name) {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+:local(.price) {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+:local(.label) {
+  font-size: 11px;
+  color: #333;
+}
+
+:local(.orderBook) {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+:local(.orderBook) > div:first-child {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+:local(.orderBook) > div:last-child {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+:local(.orderBookPrice) {
+  font-weight: bold;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Home/Prices/Market/styles.css

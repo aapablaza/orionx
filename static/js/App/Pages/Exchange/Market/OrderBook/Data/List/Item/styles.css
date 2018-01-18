@@ -1,0 +1,25 @@
+exports = module.exports = require("../../../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3o_TRwIcTQW_K94FDx4yv4{display:-ms-flexbox;display:flex;cursor:pointer}._3o_TRwIcTQW_K94FDx4yv4:hover{background-color:hsla(0,0%,100%,.025)}.UuMnG2oTdYqNTq0wHLaaw{-webkit-animation:highlightBuy 1s 1 ease-in-out;animation:highlightBuy 1s 1 ease-in-out}._2jG2NW7prwiQllLyN3XH3Q{-webkit-animation:highlightSell 1s 1 ease-in-out;animation:highlightSell 1s 1 ease-in-out}@-webkit-keyframes highlightBuy{0%{color:#008c76}to{color:#fff}}@-webkit-keyframes highlightSell{0%{color:#f44336}to{color:#fff}}._3keuqvYDDq4dmJNySCigED{padding:2px;text-align:right;-ms-flex:1 1;flex:1 1;font-weight:700}._1v_aPpZW2S7WLiquJCgVIz{padding-left:10px}._2puHfNajlGDgaN6L_byNoK{padding-right:10px}._13onbI0vSRKCffA9EvXdM5 ._2puHfNajlGDgaN6L_byNoK{color:#f44336}._3lV1TRH1kh_IQ21yGoRBCW ._2puHfNajlGDgaN6L_byNoK{color:#008c76}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/OrderBook/Data/List/Item/styles.css"],"names":[],"mappings":"AAAA,yBACE,oBAAqB,AACrB,aAAc,AACd,cAAgB,CACjB,AAED,+BACE,qCAA6C,CAC9C,AAED,uBACE,gDAAiD,AACzC,uCAAyC,CAClD,AAED,yBACE,iDAAkD,AAC1C,wCAA0C,CACnD,AAED,gCACE,GACE,aAAe,CAChB,AACD,GACE,UAAY,CACb,CACF,AAED,iCACE,GACE,aAAe,CAChB,AACD,GACE,UAAY,CACb,CACF,AAUD,yBACE,YAAa,AACb,iBAAkB,AAClB,aAAc,AACV,SAAU,AACd,eAAkB,CACnB,AAED,yBAEE,iBAAmB,CACpB,AAED,yBAEE,kBAAoB,CACrB,AAED,kDACE,aAAe,CAChB,AAED,kDACE,aAAe,CAChB","file":"styles.css","sourcesContent":[":local(.container) {\n  display: -ms-flexbox;\n  display: flex;\n  cursor: pointer;\n}\n\n:local(.container):hover {\n  background-color: rgba(255, 255, 255, 0.025);\n}\n\n:local(.highlightBuy) {\n  -webkit-animation: highlightBuy 1s 1 ease-in-out;\n          animation: highlightBuy 1s 1 ease-in-out;\n}\n\n:local(.highlightSell) {\n  -webkit-animation: highlightSell 1s 1 ease-in-out;\n          animation: highlightSell 1s 1 ease-in-out;\n}\n\n@-webkit-keyframes highlightBuy {\n  0% {\n    color: #008c76;\n  }\n  100% {\n    color: #fff;\n  }\n}\n\n@-webkit-keyframes highlightSell {\n  0% {\n    color: #f44336;\n  }\n  100% {\n    color: #fff;\n  }\n}\n\n:local(.containerSell) {\n  composes: container;\n}\n\n:local(.containerBuy) {\n  composes: container;\n}\n\n:local(.box) {\n  padding: 2px;\n  text-align: right;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  font-weight: bold;\n}\n\n:local(.amount) {\n  composes: box;\n  padding-left: 10px;\n}\n\n:local(.price) {\n  composes: box;\n  padding-right: 10px;\n}\n\n:local(.containerSell) :local(.price) {\n  color: #f44336;\n}\n\n:local(.containerBuy) :local(.price) {\n  color: #008c76;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_3o_TRwIcTQW_K94FDx4yv4",
+	"highlightBuy": "UuMnG2oTdYqNTq0wHLaaw",
+	"highlightSell": "_2jG2NW7prwiQllLyN3XH3Q",
+	"containerSell": "_13onbI0vSRKCffA9EvXdM5 _3o_TRwIcTQW_K94FDx4yv4",
+	"containerBuy": "_3lV1TRH1kh_IQ21yGoRBCW _3o_TRwIcTQW_K94FDx4yv4",
+	"box": "_3keuqvYDDq4dmJNySCigED",
+	"amount": "_1v_aPpZW2S7WLiquJCgVIz _3keuqvYDDq4dmJNySCigED",
+	"price": "_2puHfNajlGDgaN6L_byNoK _3keuqvYDDq4dmJNySCigED"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/OrderBook/Data/List/Item/styles.css
+// module id = 2164
+// module chunks = 2

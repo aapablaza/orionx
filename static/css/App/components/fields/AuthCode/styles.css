@@ -1,0 +1,48 @@
+:local(.container) {
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #0069ff;
+}
+
+:local(.icon) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0px 15px;
+  background-color: #0069ff;
+  color: #fff;
+}
+
+:local(.input) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 10px;
+  border: none;
+}
+
+:local(.input)::-webkit-input-placeholder {
+  color: #ddd;
+}
+
+:local(.input):-ms-input-placeholder {
+  color: #ddd;
+}
+
+:local(.input)::placeholder {
+  color: #ddd;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/components/fields/AuthCode/styles.css

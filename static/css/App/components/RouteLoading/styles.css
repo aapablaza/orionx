@@ -1,0 +1,17 @@
+:local(.container) {
+  height: 400px;
+  -ms-flex: 1 1;
+      flex: 1 1;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/components/RouteLoading/styles.css

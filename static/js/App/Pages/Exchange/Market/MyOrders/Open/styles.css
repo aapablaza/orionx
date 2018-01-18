@@ -1,0 +1,29 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3TJo5h__DpBSfpe_IdGpf-{display:-ms-flexbox;display:flex}._1T17etGqhP3a4InZcunNP3{border-bottom:2px solid #202228;font-weight:700}._2pVBdIj5UCJY2nrGIMDe8w{-ms-flex:1 1;flex:1 1;padding:2px;text-align:right}.mfmuLjkMmlOpgcP64Lk2w{padding-left:10px;width:63px;-ms-flex:none;flex:none;text-align:left}._3Vo9KIx7TteJXTmC-f6yyN{width:90px;-ms-flex:none;flex:none}._3oYYLPcnysKbsKneaw-sGc{width:40px;-ms-flex:none;flex:none;padding-right:10px}.Qzt38j9zA02RX2qDypK0_ ._3oYYLPcnysKbsKneaw-sGc{cursor:pointer;z-index:10}.Qzt38j9zA02RX2qDypK0_ ._3oYYLPcnysKbsKneaw-sGc:hover{opacity:.9}._2ogZWTF8yW42SHX1Ji5XTY{display:-ms-flexbox;display:flex;padding-right:4px}._2ogZWTF8yW42SHX1Ji5XTY svg{position:relative;top:.5px}._3BsuuJ3ITsdZR5bLOFJ0yt{-ms-flex:1 1;flex:1 1}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/MyOrders/Open/styles.css"],"names":[],"mappings":"AAAA,yBACE,oBAAqB,AACrB,YAAc,CACf,AAED,yBAEE,gCAAiC,AACjC,eAAkB,CACnB,AAYD,yBACE,aAAc,AACV,SAAU,AACd,YAAa,AACb,gBAAkB,CACnB,AAED,uBACE,kBAAmB,AAEnB,WAAY,AACZ,cAAe,AACX,UAAW,AACf,eAAiB,CAClB,AAcD,yBAEE,WAAY,AACZ,cAAe,AACX,SAAW,CAChB,AAED,yBAEE,WAAY,AACZ,cAAe,AACX,UAAW,AACf,kBAAoB,CACrB,AAED,gDACE,eAAgB,AAChB,UAAY,CACb,AAED,sDACE,UAAa,CACd,AAED,yBACE,oBAAqB,AACrB,aAAc,AACd,iBAAmB,CACpB,AAED,6BACE,kBAAmB,AACnB,QAAW,CACZ,AAED,yBACE,aAAc,AACV,QAAU,CACf","file":"styles.css","sourcesContent":[":local(.tableRow) {\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.thead) {\n  composes: tableRow;\n  border-bottom: 2px solid #202228;\n  font-weight: bold;\n}\n\n:local(.tr) {\n  composes: tableRow;\n}\n\n:local(.thead) :local(.tableD) {\n}\n\n:local(.tr) :local(.tableD) {\n}\n\n:local(.tableD) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n  padding: 2px;\n  text-align: right;\n}\n\n:local(.sell) {\n  padding-left: 10px;\n  composes: tableD;\n  width: 63px;\n  -ms-flex: none;\n      flex: none;\n  text-align: left;\n}\n\n:local(.price) {\n  composes: tableD;\n}\n\n:local(.amount) {\n  composes: tableD;\n}\n\n:local(.filled) {\n  composes: tableD;\n}\n\n:local(.date) {\n  composes: tableD;\n  width: 90px;\n  -ms-flex: none;\n      flex: none;\n}\n\n:local(.actions) {\n  composes: tableD;\n  width: 40px;\n  -ms-flex: none;\n      flex: none;\n  padding-right: 10px;\n}\n\n:local(.tr) :local(.actions) {\n  cursor: pointer;\n  z-index: 10;\n}\n\n:local(.tr) :local(.actions):hover {\n  opacity: 0.9;\n}\n\n:local(.typeInner) {\n  display: -ms-flexbox;\n  display: flex;\n  padding-right: 4px;\n}\n\n:local(.typeInner) svg {\n  position: relative;\n  top: 0.5px;\n}\n\n:local(.action) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"tableRow": "_3TJo5h__DpBSfpe_IdGpf-",
+	"thead": "_1T17etGqhP3a4InZcunNP3 _3TJo5h__DpBSfpe_IdGpf-",
+	"tr": "Qzt38j9zA02RX2qDypK0_ _3TJo5h__DpBSfpe_IdGpf-",
+	"tableD": "_2pVBdIj5UCJY2nrGIMDe8w",
+	"sell": "mfmuLjkMmlOpgcP64Lk2w _2pVBdIj5UCJY2nrGIMDe8w",
+	"price": "_1rMcnmVtsiEAsnYZPfSba- _2pVBdIj5UCJY2nrGIMDe8w",
+	"amount": "_2dgw4OU7M848hX3jVwaHIx _2pVBdIj5UCJY2nrGIMDe8w",
+	"filled": "Y9xcT_3PC6uBYQiCstn0W _2pVBdIj5UCJY2nrGIMDe8w",
+	"date": "_3Vo9KIx7TteJXTmC-f6yyN _2pVBdIj5UCJY2nrGIMDe8w",
+	"actions": "_3oYYLPcnysKbsKneaw-sGc _2pVBdIj5UCJY2nrGIMDe8w",
+	"typeInner": "_2ogZWTF8yW42SHX1Ji5XTY",
+	"action": "_3BsuuJ3ITsdZR5bLOFJ0yt"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/MyOrders/Open/styles.css
+// module id = 2211
+// module chunks = 2

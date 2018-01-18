@@ -1,0 +1,21 @@
+exports = module.exports = require("../../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, ".MgbDHivgp0K15jDfSztwj{position:relative}._1ZhrPch4Y9X7GSYbreo13o{border-bottom:2px solid #202228;font-weight:700;font-size:11px;display:-ms-flexbox;display:flex;height:23px}._1hk8o_8aSd2iE9X_MDe9i2{padding:0 10px;-ms-flex:1 1;flex:1 1;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}._2gGni7RbK-jdcZ5qyLsQM7{padding:5px 10px;font-size:11px}._2gGni7RbK-jdcZ5qyLsQM7>div{display:inline-block;margin-left:12px}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/Charts/Candle/Chart/styles.css"],"names":[],"mappings":"AAAA,uBACE,iBAAmB,CACpB,AAED,yBACE,gCAAiC,AACjC,gBAAkB,AAClB,eAAgB,AAChB,oBAAqB,AACrB,aAAc,AACd,WAAa,CACd,AAED,yBACE,eAAkB,AAClB,aAAc,AACV,SAAU,AACd,oBAAqB,AACrB,aAAc,AACd,sBAAuB,AACnB,kBAAoB,CACzB,AAED,yBACE,iBAAkB,AAClB,cAAgB,CACjB,AAED,6BACE,qBAAsB,AACtB,gBAAkB,CACnB","file":"styles.css","sourcesContent":[":local(.container) {\n  position: relative;\n}\n\n:local(.head) {\n  border-bottom: 2px solid #202228;\n  font-weight: bold;\n  font-size: 11px;\n  display: -ms-flexbox;\n  display: flex;\n  height: 23px;\n}\n\n:local(.options) {\n  padding: 0px 10px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n:local(.point) {\n  padding: 5px 10px;\n  font-size: 11px;\n}\n\n:local(.point) > div {\n  display: inline-block;\n  margin-left: 12px;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "MgbDHivgp0K15jDfSztwj",
+	"head": "_1ZhrPch4Y9X7GSYbreo13o",
+	"options": "_1hk8o_8aSd2iE9X_MDe9i2",
+	"point": "_2gGni7RbK-jdcZ5qyLsQM7"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/Charts/Candle/Chart/styles.css
+// module id = 2199
+// module chunks = 2

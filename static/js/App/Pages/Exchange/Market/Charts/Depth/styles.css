@@ -1,0 +1,28 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._10ee0nYhJf_Y00uokVz0bF{position:relative}._10ee0nYhJf_Y00uokVz0bF .rv-xy-plot__axis__line{stroke-width:1px}._3bzk2oIkSTO1B_12inHq83{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;top:10px;display:-ms-flexbox;display:flex;left:0;right:0}._2yXAIMKTKxxAw048or6tBm{padding:0 20px;text-align:center}.LbNM3JZ-8t3aVpViipauU{color:hsla(0,0%,100%,.4);font-size:11px}._2DHPAJYplSwA1MZLJQC6KW{color:hsla(0,0%,100%,.8);-ms-flex:1 1;flex:1 1;-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;cursor:pointer}._2DHPAJYplSwA1MZLJQC6KW:hover{color:#fff}._1u27P7uctIGqB5VxkxT8dU{cursor:default;color:hsla(0,0%,100%,.3)}._1u27P7uctIGqB5VxkxT8dU:hover{color:hsla(0,0%,100%,.3)}._2fSOmYeazy7YDyam5KRCs0,.QeFm0WE-oXuA4Dh8YIIda{-ms-flex-align:end;align-items:flex-end}._1NiNZqfP0zoUxVvAzs_2HK,._3Fx6E9wJUgQiTFu1P7edDt{-ms-flex-align:start;align-items:flex-start}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/Charts/Depth/styles.css"],"names":[],"mappings":"AAAA,yBACE,iBAAmB,CACpB,AAED,iDACE,gBAAkB,CACnB,AAED,yBACE,yBAA0B,AACvB,sBAAuB,AACtB,qBAAsB,AAClB,iBAAkB,AAC1B,kBAAmB,AACnB,SAAU,AACV,oBAAqB,AACrB,aAAc,AACd,OAAQ,AACR,OAAS,CACV,AAED,yBACE,eAAgB,AAChB,iBAAmB,CACpB,AAKD,uBACE,yBAAgC,AAChC,cAAgB,CACjB,AAED,yBACE,yBAAgC,AAChC,aAAc,AACV,SAAU,AACd,gCAAkC,AAClC,2BAA6B,AAC7B,wBAA0B,AAC1B,oBAAqB,AACrB,aAAc,AACd,0BAA2B,AACvB,sBAAuB,AAC3B,sBAAuB,AACnB,mBAAoB,AACxB,qBAAsB,AAClB,uBAAwB,AAC5B,cAAgB,CACjB,AAED,+BACE,UAA8B,CAC/B,AAED,yBAEE,eAAgB,AAChB,wBAAgC,CACjC,AAED,+BACE,wBAAgC,CACjC,AAQD,gDAEE,mBAAoB,AAChB,oBAAsB,CAC3B,AAQD,kDAEE,qBAAsB,AAClB,sBAAwB,CAC7B","file":"styles.css","sourcesContent":[":local(.container) {\n  position: relative;\n}\n\n:local(.container) .rv-xy-plot__axis__line {\n  stroke-width: 1px;\n}\n\n:local(.mid) {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  position: absolute;\n  top: 10px;\n  display: -ms-flexbox;\n  display: flex;\n  left: 0;\n  right: 0;\n}\n\n:local(.data) {\n  padding: 0 20px;\n  text-align: center;\n}\n\n:local(.value) {\n}\n\n:local(.label) {\n  color: rgba(255, 255, 255, 0.4);\n  font-size: 11px;\n}\n\n:local(.icon) {\n  color: rgba(255, 255, 255, 0.8);\n  -ms-flex: 1 1;\n      flex: 1 1;\n  -webkit-transition: all 0.2s ease;\n  -o-transition: all 0.2s ease;\n  transition: all 0.2s ease;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  -ms-flex-align: center;\n      align-items: center;\n  -ms-flex-pack: center;\n      justify-content: center;\n  cursor: pointer;\n}\n\n:local(.icon):hover {\n  color: rgba(255, 255, 255, 1);\n}\n\n:local(.iconDisabled) {\n  composes: icon;\n  cursor: default;\n  color: rgba(255, 255, 255, 0.3);\n}\n\n:local(.iconDisabled):hover {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n:local(.minus) {\n  composes: icon;\n  -ms-flex-align: end;\n      align-items: flex-end;\n}\n\n:local(.minusDisabled) {\n  composes: iconDisabled;\n  -ms-flex-align: end;\n      align-items: flex-end;\n}\n\n:local(.plus) {\n  composes: icon;\n  -ms-flex-align: start;\n      align-items: flex-start;\n}\n\n:local(.plusDisabled) {\n  composes: iconDisabled;\n  -ms-flex-align: start;\n      align-items: flex-start;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_10ee0nYhJf_Y00uokVz0bF",
+	"mid": "_3bzk2oIkSTO1B_12inHq83",
+	"data": "_2yXAIMKTKxxAw048or6tBm",
+	"value": "_3Vls66wVR9zelY9PVvsyxK",
+	"label": "LbNM3JZ-8t3aVpViipauU",
+	"icon": "_2DHPAJYplSwA1MZLJQC6KW",
+	"iconDisabled": "_1u27P7uctIGqB5VxkxT8dU _2DHPAJYplSwA1MZLJQC6KW",
+	"minus": "_2fSOmYeazy7YDyam5KRCs0 _2DHPAJYplSwA1MZLJQC6KW",
+	"minusDisabled": "QeFm0WE-oXuA4Dh8YIIda _1u27P7uctIGqB5VxkxT8dU _2DHPAJYplSwA1MZLJQC6KW",
+	"plus": "_3Fx6E9wJUgQiTFu1P7edDt _2DHPAJYplSwA1MZLJQC6KW",
+	"plusDisabled": "_1NiNZqfP0zoUxVvAzs_2HK _1u27P7uctIGqB5VxkxT8dU _2DHPAJYplSwA1MZLJQC6KW"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/Charts/Depth/styles.css
+// module id = 2175
+// module chunks = 2

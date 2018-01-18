@@ -1,0 +1,20 @@
+exports = module.exports = require("../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3KA6I2kznP5rt1KWP2xbC6{-ms-flex:1 1;flex:1 1;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row}._3VxWWXVMvqVObx-2N88fno{-webkit-box-sizing:border-box;box-sizing:border-box;overflow:auto;-webkit-overflow-scrolling:touch;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;border-left:1px solid #202228;border-right:1px solid #202228}._3VbB5p9aRvqG7lq5K9JyMQ{-ms-flex:1 1;flex:1 1;overflow:auto;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row}._3VbB5p9aRvqG7lq5K9JyMQ>._3VxWWXVMvqVObx-2N88fno:first-child{border-left:none}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/Layouts/Full/styles.css"],"names":[],"mappings":"AAAA,yBACE,aAAc,AACV,SAAU,AACd,oBAAqB,AACrB,aAAc,AACd,uBAAwB,AACpB,kBAAoB,CACzB,AAED,yBACE,8BAA+B,AACvB,sBAAuB,AAC/B,cAAe,AACf,iCAAkC,AAClC,oBAAqB,AACrB,aAAc,AACd,0BAA2B,AACvB,sBAAuB,AAC3B,8BAAuC,AACvC,8BAAwC,CACzC,AAED,yBACE,aAAc,AACV,SAAU,AACd,cAAe,AACf,oBAAqB,AACrB,aAAc,AACd,uBAAwB,AACpB,kBAAoB,CACzB,AAED,8DACE,gBAAkB,CACnB","file":"styles.css","sourcesContent":[":local(.container) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: row;\n      flex-direction: row;\n}\n\n:local(.column) {\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  overflow: auto;\n  -webkit-overflow-scrolling: touch;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n  border-left: 1px solid rgb(32, 34, 40);\n  border-right: 1px solid rgb(32, 34, 40);\n}\n\n:local(.row) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n  overflow: auto;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: row;\n      flex-direction: row;\n}\n\n:local(.row) > :local(.column):first-child {\n  border-left: none;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_3KA6I2kznP5rt1KWP2xbC6",
+	"column": "_3VxWWXVMvqVObx-2N88fno",
+	"row": "_3VbB5p9aRvqG7lq5K9JyMQ"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/Layouts/Full/styles.css
+// module id = 2276
+// module chunks = 2

@@ -1,0 +1,9 @@
+:local(.container) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Root/ApolloNetworkError/styles.css

@@ -1,0 +1,19 @@
+exports = module.exports = require("../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, ".So_a9VZcg76A40izHASih{-ms-flex:1 1;flex:1 1;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column}._3vUnktzBbfTMU-MAhBY-dB{font-size:12px;padding:10px;-ms-flex:1 1;flex:1 1}._3vUnktzBbfTMU-MAhBY-dB .label{margin-bottom:2px}._3vUnktzBbfTMU-MAhBY-dB .total{margin-top:30px;text-align:center}._3vUnktzBbfTMU-MAhBY-dB .totalValue{margin:10px 0;font-size:20px}._3vUnktzBbfTMU-MAhBY-dB .totalCommission{font-size:11px;color:hsla(0,0%,100%,.5)}._3vUnktzBbfTMU-MAhBY-dB .orion_button{margin-top:20px;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:13px}._3vUnktzBbfTMU-MAhBY-dB .orion_primary,._3vUnktzBbfTMU-MAhBY-dB .orion_primary:active{background-color:#008c76}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/CreateOrder/styles.css"],"names":[],"mappings":"AAAA,uBACE,aAAc,AACV,SAAU,AACd,oBAAqB,AACrB,aAAc,AACd,0BAA2B,AACvB,qBAAuB,CAC5B,AAED,yBACE,eAAgB,AAChB,aAAc,AACd,aAAc,AACV,QAAU,CACf,AAED,gCACE,iBAAmB,CACpB,AAED,gCACE,gBAAiB,AACjB,iBAAmB,CACpB,AAKD,qCACE,cAAe,AACf,cAAgB,CACjB,AAED,0CACE,eAAgB,AAChB,wBAAgC,CACjC,AAED,uCACE,gBAAiB,AACjB,WAAY,AACZ,8BAA+B,AACvB,sBAAuB,AAC/B,cAAgB,CACjB,AAMD,uFACE,wBAA0B,CAC3B","file":"styles.css","sourcesContent":[":local(.container) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n\n:local(.content) {\n  font-size: 12px;\n  padding: 10px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n\n:local(.content) .label {\n  margin-bottom: 2px;\n}\n\n:local(.content) .total {\n  margin-top: 30px;\n  text-align: center;\n}\n\n:local(.content) .totalLabel {\n}\n\n:local(.content) .totalValue {\n  margin: 10px 0;\n  font-size: 20px;\n}\n\n:local(.content) .totalCommission {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.5);\n}\n\n:local(.content) .orion_button {\n  margin-top: 20px;\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-size: 13px;\n}\n\n:local(.content) .orion_primary {\n  background-color: #008c76;\n}\n\n:local(.content) .orion_primary:active {\n  background-color: #008c76;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "So_a9VZcg76A40izHASih",
+	"content": "_3vUnktzBbfTMU-MAhBY-dB"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/CreateOrder/styles.css
+// module id = 2127
+// module chunks = 2

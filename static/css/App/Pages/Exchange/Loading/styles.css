@@ -1,0 +1,16 @@
+:local(.container) {
+  height: 100%;
+  -ms-flex: 1 1;
+      flex: 1 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Loading/styles.css

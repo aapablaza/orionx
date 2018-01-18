@@ -1,0 +1,32 @@
+:local(.container) {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  color: rgba(21, 35, 44, 0.8);
+  font-weight: bold;
+}
+
+:local(.container) > div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0 20px;
+}
+
+:local(.container) > div:first-child {
+  padding-left: 0;
+}
+
+:local(.logo) {
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Layout/Navbar/styles.css

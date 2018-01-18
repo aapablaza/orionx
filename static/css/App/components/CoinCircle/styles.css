@@ -1,0 +1,23 @@
+:local(.container) {
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:local(.icon) {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/components/CoinCircle/styles.css

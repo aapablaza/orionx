@@ -1,0 +1,19 @@
+exports = module.exports = require("../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._27qw-H1Fy8cx7MZq-ufd8D{font-size:12px;display:-ms-flexbox;display:flex;-ms-flex:1 1;flex:1 1;-ms-flex-direction:column;flex-direction:column}._29v6j7kmsAxliI6Ad8338W{border-bottom:2px solid #202228;font-weight:700;display:-ms-flexbox;display:flex}._29v6j7kmsAxliI6Ad8338W>div{padding:2px;-ms-flex:1 1;flex:1 1;text-align:right}._29v6j7kmsAxliI6Ad8338W>div:first-child{padding-left:10px}._29v6j7kmsAxliI6Ad8338W>div:last-child{padding-right:10px}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/OrderBook/styles.css"],"names":[],"mappings":"AAAA,yBACE,eAAgB,AAChB,oBAAqB,AACrB,aAAc,AACd,aAAc,AACV,SAAU,AACd,0BAA2B,AACvB,qBAAuB,CAC5B,AAED,yBACE,gCAAiC,AACjC,gBAAkB,AAClB,oBAAqB,AACrB,YAAc,CACf,AAED,6BACE,YAAa,AACb,aAAc,AACV,SAAU,AACd,gBAAkB,CACnB,AAED,yCACE,iBAAmB,CACpB,AAED,wCACE,kBAAoB,CACrB","file":"styles.css","sourcesContent":[":local(.container) {\n  font-size: 12px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  -ms-flex-direction: column;\n      flex-direction: column;\n}\n\n:local(.header) {\n  border-bottom: 2px solid #202228;\n  font-weight: bold;\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.header) > div {\n  padding: 2px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  text-align: right;\n}\n\n:local(.header) > div:first-child {\n  padding-left: 10px;\n}\n\n:local(.header) > div:last-child {\n  padding-right: 10px;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_27qw-H1Fy8cx7MZq-ufd8D",
+	"header": "_29v6j7kmsAxliI6Ad8338W"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/OrderBook/styles.css
+// module id = 2155
+// module chunks = 2

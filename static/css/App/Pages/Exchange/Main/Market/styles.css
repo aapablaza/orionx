@@ -1,0 +1,24 @@
+:local(.container) {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 300px;
+  border-radius: 4px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  text-align: left;
+}
+
+:local(.title) {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+}
+
+:local(.chart) {
+  padding: 10px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Main/Market/styles.css

@@ -1,0 +1,20 @@
+exports = module.exports = require("../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._2HeN4Hl3Z2XeU7h2o41YOB{display:-ms-flexbox;display:flex;border-top:1px solid hsla(0,0%,100%,.1);font-size:13px;font-weight:700;text-align:center}._1v7RH6AsWhLTChbTYggYuD{padding:10px;-ms-flex:1 1;flex:1 1;border-left:1px solid hsla(0,0%,100%,.1);cursor:pointer}._1v7RH6AsWhLTChbTYggYuD:first-child{border-left:none}._31l5Kt4VzS_6EP9SISY1uU{background-color:#0069ff}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/components/fields/Tabs/styles.css"],"names":[],"mappings":"AAAA,yBACE,oBAAqB,AACrB,aAAc,AACd,wCAA+C,AAC/C,eAAgB,AAChB,gBAAkB,AAClB,iBAAmB,CACpB,AAED,yBACE,aAAc,AACd,aAAc,AACV,SAAU,AACd,yCAAgD,AAChD,cAAgB,CACjB,AAED,qCACE,gBAAkB,CACnB,AAED,yBAEE,wBAA0B,CAC3B","file":"styles.css","sourcesContent":[":local(.container) {\n  display: -ms-flexbox;\n  display: flex;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  font-size: 13px;\n  font-weight: bold;\n  text-align: center;\n}\n\n:local(.section) {\n  padding: 10px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  border-left: 1px solid rgba(255, 255, 255, 0.1);\n  cursor: pointer;\n}\n\n:local(.section):first-child {\n  border-left: none;\n}\n\n:local(.selected) {\n  composes: section;\n  background-color: #0069ff;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_2HeN4Hl3Z2XeU7h2o41YOB",
+	"section": "_1v7RH6AsWhLTChbTYggYuD",
+	"selected": "_31l5Kt4VzS_6EP9SISY1uU _1v7RH6AsWhLTChbTYggYuD"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/components/fields/Tabs/styles.css
+// module id = 2123
+// module chunks = 2

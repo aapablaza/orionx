@@ -1,0 +1,43 @@
+:local(.container) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+:local(.container) a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-weight: 600;
+  color: #111;
+  font-size: 30px;
+}
+
+:local(.container) div {
+  -ms-flex: 1 1;
+      flex: 1 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+:local(.container) svg {
+  top: 1px;
+  position: relative;
+}
+
+:local(.container) img {
+  height: 30px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Layout/Navbar/Logo/styles.css

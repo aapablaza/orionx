@@ -1,0 +1,24 @@
+:local(.container) {
+  width: 100%;
+  max-width: 400px;
+  min-height: 234px;
+  text-align: center;
+}
+
+:local(.title) {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+:local(.buttons) {
+  margin-top: 40px;
+}
+
+:local(.cancelButton) {
+  margin-top: 10px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Root/ApolloError/UnauthorizedSession/Authorize/styles.css

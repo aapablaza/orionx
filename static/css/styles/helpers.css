@@ -1,0 +1,22 @@
+.flex-cols {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-one {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/styles/helpers.css

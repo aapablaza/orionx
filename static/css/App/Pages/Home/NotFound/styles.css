@@ -1,0 +1,40 @@
+:local(.container) {
+  background-color: #010003;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+  color: #fff;
+  background-image: url('https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=2089&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+  background-position: center;
+  background-size: cover;
+}
+
+:local(.content) {
+  max-width: 350px;
+}
+
+:local(.title) {
+  font-size: 36px;
+  font-family: 'Geomanist', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+:local(.description) {
+  margin-bottom: 15px;
+}
+
+:local(.link) {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Home/NotFound/styles.css

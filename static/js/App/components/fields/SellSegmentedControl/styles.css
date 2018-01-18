@@ -1,0 +1,21 @@
+exports = module.exports = require("../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, ".V4eNb442q-MlXGSLTknfI{display:-ms-flexbox;display:flex;margin-bottom:10px}._3RJ3nnUd_Gm9naTPwzgkQB{font-size:14px;-ms-flex:1 1;flex:1 1;text-align:center;padding:5px;cursor:pointer;background-color:hsla(0,0%,100%,.1);border-radius:2px}._3RJ3nnUd_Gm9naTPwzgkQB:first-child{margin-right:5px}._2Apeg_4TIuuwrDTmQKiD5U{background-color:#008c76}._cIRBnhE4xbpbdlUYxGJR{background-color:#f44336}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/components/fields/SellSegmentedControl/styles.css"],"names":[],"mappings":"AAAA,uBACE,oBAAqB,AACrB,aAAc,AACd,kBAAoB,CACrB,AAED,yBACE,eAAgB,AAChB,aAAc,AACV,SAAU,AACd,kBAAmB,AACnB,YAAa,AACb,eAAgB,AAChB,oCAA2C,AAC3C,iBAAmB,CACpB,AAED,qCACE,gBAAkB,CACnB,AAKD,yBAEE,wBAA0B,CAC3B,AAED,uBAEE,wBAA0B,CAC3B","file":"styles.css","sourcesContent":[":local(.container) {\n  display: -ms-flexbox;\n  display: flex;\n  margin-bottom: 10px;\n}\n\n:local(.item) {\n  font-size: 14px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n  text-align: center;\n  padding: 5px;\n  cursor: pointer;\n  background-color: rgba(255, 255, 255, 0.1);\n  border-radius: 2px;\n}\n\n:local(.item):first-child {\n  margin-right: 5px;\n}\n\n:local(.item):last-child {\n}\n\n:local(.buy) {\n  composes: item;\n  background-color: #008c76;\n}\n\n:local(.sell) {\n  composes: item;\n  background-color: #f44336;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "V4eNb442q-MlXGSLTknfI",
+	"item": "_3RJ3nnUd_Gm9naTPwzgkQB",
+	"buy": "_2Apeg_4TIuuwrDTmQKiD5U _3RJ3nnUd_Gm9naTPwzgkQB",
+	"sell": "_cIRBnhE4xbpbdlUYxGJR _3RJ3nnUd_Gm9naTPwzgkQB"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/components/fields/SellSegmentedControl/styles.css
+// module id = 2153
+// module chunks = 2

@@ -1,0 +1,23 @@
+exports = module.exports = require("../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3o_31xZfrJNBHCB8qeR9VR{padding:10px;font-size:14px}._2DCaJW2Rqz8s0jNsjDSeIX{display:-ms-flexbox;display:flex;font-weight:700;margin:5px 0}._1w-Iz7pZzji0di7OE4PDIF{-ms-flex:1 1;flex:1 1}._1QMn4q_AuERqo8SPP-dryr{margin-top:10px}._3JOuwz6OEtIQ936hgdbcBy{font-size:12px;color:hsla(0,0%,100%,.7)}._3o_31xZfrJNBHCB8qeR9VR .orion_button{margin:5px 0;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:13px}._3o_31xZfrJNBHCB8qeR9VR .orion_primary,._3o_31xZfrJNBHCB8qeR9VR .orion_primary:active{background-color:#008c76}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/Balance/styles.css"],"names":[],"mappings":"AAAA,yBACE,aAAc,AACd,cAAgB,CACjB,AAED,yBACE,oBAAqB,AACrB,aAAc,AACd,gBAAkB,AAClB,YAAc,CACf,AAED,yBACE,aAAc,AACV,QAAU,CACf,AAKD,yBACE,eAAiB,CAClB,AAED,yBAEE,eAAgB,AAChB,wBAAgC,CACjC,AAED,uCACE,aAAc,AACd,WAAY,AACZ,8BAA+B,AACvB,sBAAuB,AAC/B,cAAgB,CACjB,AAMD,uFACE,wBAA0B,CAC3B","file":"styles.css","sourcesContent":[":local(.container) {\n  padding: 10px;\n  font-size: 14px;\n}\n\n:local(.balance) {\n  display: -ms-flexbox;\n  display: flex;\n  font-weight: bold;\n  margin: 5px 0;\n}\n\n:local(.code) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n\n:local(.value) {\n}\n\n:local(.commissions) {\n  margin-top: 10px;\n}\n\n:local(.commission) {\n  composes: balance;\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.7);\n}\n\n:local(.container) .orion_button {\n  margin: 5px 0;\n  width: 100%;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-size: 13px;\n}\n\n:local(.container) .orion_primary {\n  background-color: #008c76;\n}\n\n:local(.container) .orion_primary:active {\n  background-color: #008c76;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_3o_31xZfrJNBHCB8qeR9VR",
+	"balance": "_2DCaJW2Rqz8s0jNsjDSeIX",
+	"code": "_1w-Iz7pZzji0di7OE4PDIF",
+	"value": "_2Ue9lz2xr9mygllnw4Jc_h",
+	"commissions": "_1QMn4q_AuERqo8SPP-dryr",
+	"commission": "_3JOuwz6OEtIQ936hgdbcBy _2DCaJW2Rqz8s0jNsjDSeIX"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/Balance/styles.css
+// module id = 2125
+// module chunks = 2

@@ -1,0 +1,79 @@
+:local(.container) {
+  background-color: #0069ff;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+:local(.content) {
+  min-height: 600px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+}
+
+:local(.text) {
+  max-width: 500px;
+  z-index: 2;
+}
+
+:local(.title) {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+:local(.divider) {
+  height: 5px;
+  background-color: #fff;
+  width: 115px;
+  margin-top: 35px;
+  margin-bottom: -10px;
+}
+
+:local(.description) {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+:local(.data) {
+  -ms-flex: 1 1;
+      flex: 1 1;
+}
+
+:local(.city) {
+  position: absolute;
+  bottom: -135px;
+  right: 0;
+  height: 600px;
+  z-index: 1;
+}
+
+@media (max-width: 1050px) {
+  :local(.city) {
+    height: 500px;
+    bottom: -110px;
+  }
+}
+
+@media (max-width: 850px) {
+  :local(.city) {
+    height: 400px;
+    bottom: -89px;
+  }
+}
+
+@media (max-width: 560px) {
+  :local(.city) {
+    height: 300px;
+    bottom: -68px;
+  }
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Home/Home/Top/styles.css

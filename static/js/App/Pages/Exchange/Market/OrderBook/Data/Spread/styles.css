@@ -1,0 +1,19 @@
+exports = module.exports = require("../../../../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._2QhSvvE3tKz1oirP18GB77{padding:2px 10px;display:-ms-flexbox;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#202228}.miP5dt_jdwbDCnhVDRtE_{-ms-flex:1 1;flex:1 1}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/OrderBook/Data/Spread/styles.css"],"names":[],"mappings":"AAAA,yBACE,iBAAkB,AAClB,oBAAqB,AACrB,aAAc,AACd,8BAA+B,AACvB,sBAAuB,AAC/B,wBAA0B,CAC3B,AAED,uBACE,aAAc,AACV,QAAU,CACf","file":"styles.css","sourcesContent":[":local(.container) {\n  padding: 2px 10px;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  background-color: #202228;\n}\n\n:local(.label) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_2QhSvvE3tKz1oirP18GB77",
+	"label": "miP5dt_jdwbDCnhVDRtE_"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/OrderBook/Data/Spread/styles.css
+// module id = 2161
+// module chunks = 2

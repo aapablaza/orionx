@@ -1,0 +1,12 @@
+:local(.container) {
+  background: rgb(40, 44, 52);
+  color: #fff;
+}
+
+:local(.children) {
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Layout/styles.css

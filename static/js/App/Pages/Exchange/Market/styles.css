@@ -1,0 +1,18 @@
+exports = module.exports = require("../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._1WsY0hINr9aBU51KYpHecU{display:-ms-flexbox;display:flex;height:100%}._1WsY0hINr9aBU51KYpHecU .header{border-top:2px solid #202228;background:#262930;z-index:10;-webkit-box-sizing:border-box;box-sizing:border-box}._1WsY0hINr9aBU51KYpHecU .header>div{border-bottom:2px solid #202228}._1WsY0hINr9aBU51KYpHecU .header-flex{display:-ms-flexbox;display:flex}._1WsY0hINr9aBU51KYpHecU .header-title{font-size:16px;padding:10px;-ms-flex:1 1;flex:1 1}._1WsY0hINr9aBU51KYpHecU .header-options{padding:0 10px;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/Pages/Exchange/Market/styles.css"],"names":[],"mappings":"AAAA,yBACE,oBAAqB,AACrB,aAAc,AACd,WAAa,CACd,AAYD,iCACE,6BAAsC,AACtC,mBAAoB,AACpB,WAAY,AACZ,8BAA+B,AACvB,qBAAuB,CAChC,AAED,qCACE,+BAAyC,CAC1C,AAED,sCACE,oBAAqB,AACrB,YAAc,CACf,AAED,uCACE,eAAgB,AAChB,aAAc,AACd,aAAc,AACV,QAAU,CACf,AAED,yCACE,eAAgB,AAChB,oBAAqB,AACrB,aAAc,AACd,qBAAsB,AAClB,uBAAwB,AAC5B,sBAAuB,AACnB,kBAAoB,CACzB","file":"styles.css","sourcesContent":[":local(.container) {\n  display: -ms-flexbox;\n  display: flex;\n  height: 100%;\n}\n/*\n:local(.container) .box {\n  flex: 1;\n  border: 1px solid rgb(32, 34, 40);\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n}\n\n*/\n\n:local(.container) .header {\n  border-top: 2px solid rgb(32, 34, 40);\n  background: #262930;\n  z-index: 10;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n}\n\n:local(.container) .header > div {\n  border-bottom: 2px solid rgb(32, 34, 40);\n}\n\n:local(.container) .header-flex {\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.container) .header-title {\n  font-size: 16px;\n  padding: 10px;\n  -ms-flex: 1 1;\n      flex: 1 1;\n}\n\n:local(.container) .header-options {\n  padding: 0 10px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-pack: center;\n      justify-content: center;\n  -ms-flex-align: center;\n      align-items: center;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"container": "_1WsY0hINr9aBU51KYpHecU"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/Pages/Exchange/Market/styles.css
+// module id = 2117
+// module chunks = 2

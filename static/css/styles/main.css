@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.ReactVirtualized__Grid.ReactVirtualized__List {
+  outline: none;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/styles/main.css

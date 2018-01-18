@@ -1,0 +1,22 @@
+exports = module.exports = require("../../../../../node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.id, "._3eFIjzks9V6mP0ofp3MBGr{display:-ms-flexbox;display:flex}._3yTTXkneYzyK041jP4VNjP{-ms-flex:1 1;flex:1 1;font-size:14px;padding:0 10px 5px;cursor:pointer;text-align:center;color:hsla(0,0%,100%,.4);border-bottom:2px solid hsla(0,0%,100%,.4);-webkit-transition:all .4s ease;-o-transition:all .4s ease;transition:all .4s ease}._3rIXqyRxhPisyQ2cUP6R7O{color:#fff;border-bottom:2px solid #fff}", "", {"version":3,"sources":["/Users/nicolaslopezj/Code/Node/labs/projects/exchange/web/src/App/components/fields/SegmentedControl/styles.css"],"names":[],"mappings":"AAEA,yBACE,oBAAqB,AACrB,YAAc,CACf,AAED,yBACE,aAAc,AACV,SAAU,AACd,eAAgB,AAChB,mBAAyB,AACzB,eAAgB,AAChB,kBAAmB,AACnB,yBAAwB,AACxB,2CAAmD,AACnD,gCAAkC,AAClC,2BAA6B,AAC7B,uBAA0B,CAC3B,AAED,yBAEE,WAAY,AACZ,4BAAuC,CACxC","file":"styles.css","sourcesContent":["@value borderBottom: 2px;\n@value deactivatedColor: rgba(255, 255, 255, 0.4);\n:local(.container) {\n  display: -ms-flexbox;\n  display: flex;\n}\n\n:local(.item) {\n  -ms-flex: 1 1;\n      flex: 1 1;\n  font-size: 14px;\n  padding: 0 10px 5px 10px;\n  cursor: pointer;\n  text-align: center;\n  color: deactivatedColor;\n  border-bottom: borderBottom solid deactivatedColor;\n  -webkit-transition: all 0.4s ease;\n  -o-transition: all 0.4s ease;\n  transition: all 0.4s ease;\n}\n\n:local(.active) {\n  composes: item;\n  color: #fff;\n  border-bottom: borderBottom solid #fff;\n}\n"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"borderBottom": "2px",
+	"deactivatedColor": "rgba(255, 255, 255, 0.4)",
+	"container": "_3eFIjzks9V6mP0ofp3MBGr",
+	"item": "_3yTTXkneYzyK041jP4VNjP",
+	"active": "_3rIXqyRxhPisyQ2cUP6R7O _3yTTXkneYzyK041jP4VNjP"
+};
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/css-loader?{"importLoaders":1,"minimize":true,"sourceMap":true}!./node_modules/postcss-loader/lib?{"ident":"postcss","plugins":[null,null]}!./src/App/components/fields/SegmentedControl/styles.css
+// module id = 2150
+// module chunks = 2

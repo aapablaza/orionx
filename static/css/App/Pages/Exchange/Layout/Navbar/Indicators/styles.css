@@ -1,0 +1,21 @@
+:local(.container) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+:local(.indicator) {
+  margin-right: 20px;
+}
+
+:local(.label) {
+  font-size: 11px;
+  color: rgba(21, 35, 44, 0.5);
+  font-weight: normal;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Exchange/Layout/Navbar/Indicators/styles.css

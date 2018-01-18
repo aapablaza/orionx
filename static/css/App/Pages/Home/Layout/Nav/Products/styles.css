@@ -1,0 +1,44 @@
+:local(.container) {
+}
+
+:local(.currency) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+:local(.currency) {
+}
+
+:local(.currency):last-child {
+  border-bottom: none;
+}
+
+:local(.currency):hover {
+  background: #eee;
+}
+
+:local(.icon) {
+  padding: 20px 30px;
+}
+:local(.content) {
+  padding: 20px 30px 20px 0;
+  min-width: 200px;
+}
+:local(.name) {
+  color: #010101;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+:local(.description) {
+  color: #777;
+  font-size: 14px;
+}
+
+
+
+// WEBPACK FOOTER //
+// ./src/App/Pages/Home/Layout/Nav/Products/styles.css
